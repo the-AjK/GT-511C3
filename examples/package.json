@@ -1,0 +1,32 @@
+{
+  "name": "gt511c3-example",
+  "description": "GT-511C3 fingerprint scanner module example",
+  "version": "0.0.1",
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Alberto Garbui",
+    "email": "alberto.garbui@gmail.com",
+    "url": "http://ajk.altervista.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-AjK/GT-511C3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/the-AjK/GT-511C3/issues",
+    "email": "alberto.garbui@gmail.com"
+  },
+  "keywords": [
+    "GT-511C3",
+    "gt511c3",
+    "SEN-11792",
+    "fingerprint",
+    "scanner",
+    "ajk",
+    "jk"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "gt511c3": "latest"
+  }
+}
