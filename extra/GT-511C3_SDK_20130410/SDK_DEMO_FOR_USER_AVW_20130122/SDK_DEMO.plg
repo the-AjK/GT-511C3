@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SDK_DEMO - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/SDK_DEMO.res" /d "NDEBUG" "D:\HOLTEK\work\SDK_DEMO_FOR_USER\SDK_DEMO.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4BD.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /Fp"Release/SDK_DEMO.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\HOLTEK\work\SDK_DEMO_FOR_USER\CommBase.cpp"
+"D:\HOLTEK\work\SDK_DEMO_FOR_USER\OEM.cpp"
+"D:\HOLTEK\work\SDK_DEMO_FOR_USER\sb_protocol_oem.cpp"
+"D:\HOLTEK\work\SDK_DEMO_FOR_USER\SDK_DEMO.cpp"
+"D:\HOLTEK\work\SDK_DEMO_FOR_USER\SDK_DEMODlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4BD.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4BE.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /Fp"Release/SDK_DEMO.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\HOLTEK\work\SDK_DEMO_FOR_USER\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4BE.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4BF.tmp" with contents
+[
+/nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Release/SDK_DEMO.pdb" /machine:I386 /out:".\BIN\SDK_DEMO.exe" 
+.\Release\CommBase.obj
+.\Release\OEM.obj
+.\Release\sb_protocol_oem.obj
+.\Release\SDK_DEMO.obj
+.\Release\SDK_DEMODlg.obj
+.\Release\StdAfx.obj
+.\Release\SDK_DEMO.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4BF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CommBase.cpp
+OEM.cpp
+sb_protocol_oem.cpp
+SDK_DEMO.cpp
+SDK_DEMODlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SDK_DEMO.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
