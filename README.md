@@ -25,8 +25,8 @@ fps.init().then(
 	function() {
 		//init ok
 		console.log('firmware version: ' + fps.firmwareVersion);
-  	console.log('iso area max: ' + fps.isoAreaMaxSize);
-  	console.log('device serial number: ' + fps.deviceSerialNumber);
+    	console.log('iso area max: ' + fps.isoAreaMaxSize);
+    	console.log('device serial number: ' + fps.deviceSerialNumber);
 	},
 	function(err) {
 		console.log('init err: ' + err);
@@ -98,7 +98,7 @@ Error codes
   * close() 
   * closePort()
   * usbInternalCheck()
-  * ledONOFF(led_state) - 
+  * ledONOFF(led_state) 
   * changeBaudRate(baudrate)
   * getEnrollCount()
   * checkEnrolled(ID)
@@ -159,6 +159,11 @@ Send the **USB_INTERNAL_CHECK** command to the fingerprint module. Returns a pro
 ##### ledONOFF(led_state)
 Send the **CMOS_LED** command to the fingerprint module. Returns a promise.
 - led_state - specify whether to switch the onboard leds on or off. Global variables such as **LED_OFF** or **LED_ON** may be used.
+
+Example:
+```js
+fps.ledONOFF(fps.LED_ON);
+```
 
 ##### changeBaudRate(baudrate)
 Send the **CHANGE_BAUDRATE** command to the fingerprint module to change the module baudrate, if the command is acknowledged, the serialport baudrate will be updated as well. Returns a promise.
@@ -299,7 +304,7 @@ Send the **GET_TEMPLATE** command to the fingerprint module to retrieve the temp
 - ID - specify the fingerprint's ID [0..199]
 
 ##### setTemplate(ID, template)
-Send the *SET_TEMPLATE** command to the fingerprint module to set the template for a specified fingerprint ID. Returns a promise.
+Send the **SET_TEMPLATE** command to the fingerprint module to set the template for a specified fingerprint ID. Returns a promise.
 - ID - specify the fingerprint's ID [0..199]
 - template - 498bytes template (Buffer)
 
