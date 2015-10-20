@@ -19,11 +19,11 @@ var fs = require('fs');
 
 var fps = new GT511C3('/dev/ttyS1', {
 	baudrate: 115200
-		//baudrate: 57600,
-		//baudrate: 38400,
-		//baudrate: 19200,
-		//baudrate: 9600,
-		//debug: true
+	//baudrate: 57600,
+	//baudrate: 38400,
+	//baudrate: 19200,
+	//baudrate: 9600,
+	//debug: true
 });
 
 var ID_TO_USE = 199;
@@ -215,10 +215,6 @@ stdin.on('data', function(key) {
 			})
 			.then(function(ID) {
 				console.log("identify: ID = " + ID);
-				rele3.writeSync(0);
-				setTimeout(function() {
-					rele3.writeSync(1);
-				}, 1000);
 			}, function(err) {
 				console.log("identify err: " + fps.decodeError(err));
 			});
@@ -366,6 +362,6 @@ fps.init().then(
 		console.log('device serial number: ' + fps.deviceSerialNumber);
 	},
 	function(err) {
-	console.log('init err: ' + fps.decodeError(err));
+		console.log('init err: ' + fps.decodeError(err));
 	}
 );
