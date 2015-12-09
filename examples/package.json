@@ -26,7 +26,7 @@
     "jk"
   ],
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "1.5.0",
     "gt511c3": "latest"
   }
 }
