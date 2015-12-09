@@ -8,10 +8,10 @@ Find me on:
 [![alt text][6.1]][6]
 [![alt text][7.1]][7]
 
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
-[6.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
-[7.1]: http://i.imgur.com/VlgBKQ9.png (google plus icon without padding)
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter)
+[2.1]: http://i.imgur.com/P3YfQoD.png (facebook)
+[6.1]: http://i.imgur.com/0o48UoR.png (github)
+[7.1]: http://i.imgur.com/VlgBKQ9.png (google plus)
 
 [1]: https://twitter.com/albertoajk
 [2]: https://www.facebook.com/ajk.alberto
