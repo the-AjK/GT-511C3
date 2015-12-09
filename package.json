@@ -1,7 +1,7 @@
 {
   "name": "gt511c3",
   "description": "GT-511C3 fingerprint scanner module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "main.js",
   "license": "BSD-3-Clause",
   "author": {
